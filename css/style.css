@@ -261,23 +261,55 @@ header {
 .facts-activities {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-   column-gap: 40px;
-   justify-items: center;
+    column-gap: 40px;
+    justify-items: center;
 }
 
 .activate {
     border: 1px solid #FF900E;
     border-radius: 8px;
-    transition: transform 3s,scale 3s;
+    transition: transform 3s, scale 3s;
     display: flex;
     justify-content: center;
-    
-    
+
+
 }
-.activate:hover{
+
+.activate:hover {
     transform: rotate(90deg) scale(.5);
 }
-.single{
+
+.single {
     text-align: center;
     padding: 83px 50px 8px 50px;
+}
+
+/* sponsor section styles */
+.sponsor{
+    margin-bottom: 130px;
+}
+.sponsor h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.sponsor p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+.sponsor-img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    justify-items: center;
+    
+}
+.sponsor-img img{
+    filter: brightness(.1)
 }
