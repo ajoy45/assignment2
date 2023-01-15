@@ -21,9 +21,11 @@ p {
     font-family: 'Roboto', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-.hide{
+
+.hide {
     display: none;
 }
+
 .container {
     width: 1440px;
     margin: 0 auto;
@@ -67,6 +69,8 @@ header {
 
 .nav>ul li a {
     text-decoration: none;
+    color: #424242;
+    ;
 }
 
 /* banner styles */
@@ -103,6 +107,7 @@ header {
     background: var(--primary-color);
     border-radius: 8px;
     margin-bottom: 50px;
+    color: white;
 }
 
 .banner-img {
@@ -154,4 +159,74 @@ header {
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+/* service section */
+.service {
+    display: flex;
+    column-gap: 54px;
+}
+
+.service-details {
+    width: 586px;
+}
+
+.border {
+    border-left: 3px solid var(--primary-color);
+    margin-bottom: 24px;
+}
+
+.service-details h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 20px;
+}
+
+.service-details p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.service-box {
+    padding: 30px 30px;
+    box-shadow: 0px 0px 10px rgb(231, 227, 227);
+    margin-bottom: 20px;
+}
+
+.service-box h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.img-btn {
+    margin-top: -117px;
+    margin-left: -35px;
+}
+
+.service-btn {
+    padding: 82px 40px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    line-height: 0.7;
+}
+
+.service-btn small{
+    font-size: 16px;
 }
