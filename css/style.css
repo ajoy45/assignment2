@@ -211,11 +211,13 @@ header {
     line-height: 26px;
     color: #727272;
 }
-.service-img img{
+
+.service-img img {
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
+
 .img-btn {
     margin-top: -117px;
     margin-left: -35px;
@@ -232,6 +234,50 @@ header {
     line-height: 0.7;
 }
 
-.service-btn small{
+.service-btn small {
     font-size: 16px;
+}
+
+/* facts styles */
+.facts {
+    margin-top: 118px;
+    margin-bottom: 180px;
+}
+
+.facts h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.facts p {
+    margin-bottom: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px
+}
+
+.facts-activities {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   column-gap: 40px;
+   justify-items: center;
+}
+
+.activate {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: transform 3s,scale 3s;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.activate:hover{
+    transform: rotate(90deg) scale(.5);
+}
+.single{
+    text-align: center;
+    padding: 83px 50px 8px 50px;
 }
