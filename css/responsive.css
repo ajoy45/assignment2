@@ -1,6 +1,7 @@
 /* header section */
 /* mobile device */
 @media only screen and (max-width:688px) {
+    /* header section */
     .container,.banner-details,.banner-img img{
         width: 100%;
     }
@@ -8,10 +9,21 @@
         flex-direction: column;
     }
     
+    /* main-features section */
+    .main-features {
+        flex-direction: column;
+    }
+    .features-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-details{
+       width: 100%;
+    }
    
 }
 /* tablet device */
 @media only screen and (min-width:689px) and (max-width:1024px) {
+    /* header section */
     .container,.banner-details,.banner-img img{
         width: 100%;
     }
@@ -21,6 +33,8 @@
     .nav>ul{
         flex-direction: column;
       }
-    
-     
+    /* main-features section */
+      .main-features {
+        flex-direction: column;
+    }
 }
