@@ -1,0 +1,19 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans&family=Poppins&family=Roboto&family=Work+Sans:ital,wght@0,400;1,300&display=swap');
+
+/* common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1440px;
+}
