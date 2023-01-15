@@ -313,3 +313,11 @@ header {
 .sponsor-img img{
     filter: brightness(.1)
 }
+/* footer section */
+.footer{
+    background: #fff4e7;
+    text-align: center;
+    padding: 40px 0;
+    margin-bottom: 200px;
+    
+}
